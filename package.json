@@ -58,6 +58,8 @@
     "@types/nodemailer": "^6.4.17",
     "@types/string-similarity": "^4.0.2",
     "@xyflow/react": "^12.8.2",
+    "@sentry/nestjs": "^10.8.0",
+    "@sentry/profiling-node": "^10.8.0",
     "async-mutex": "^0.5.0",
     "axios": "^1.11.0",
     "bcrypt": "^6.0.0",
