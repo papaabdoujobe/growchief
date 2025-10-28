@@ -11,9 +11,9 @@ services:
       STORAGE_PROVIDER: "local"
       UPLOAD_DIRECTORY: "/uploads"
       NEXT_PUBLIC_UPLOAD_DIRECTORY: "/uploads"
-      AUTH_SECRET: "YourSpecialString!@#111"
-      GOOGLE_CLIENT_ID: "For Login With Google Client ID"
-      GOOGLE_CLIENT_SECRET: "For Login With Google Client Secret"
+      AUTH_SECRET: "123pap$"  # <--- UPDATED
+      GOOGLE_CLIENT_ID: ""  # <--- UPDATED to blank
+      GOOGLE_CLIENT_SECRET: ""  # <--- UPDATED to blank
       TEMPORAL_ADDRESS: "temporal:7233"
       APOLLO_API_KEY: ""
       DATAGMA_API_KEY: ""
@@ -129,7 +129,7 @@ services:
     networks:
       - temporal-network
     ports:
-      - "8080:8080"
+      - "8444:8080"  # <--- CHANGED: Host port is now 8444
 
 # -----------------------
 # Volumes
